@@ -46,7 +46,8 @@ SRC		:=  src/BRDFs/BRDF.cpp \
 
 SRC_GTEST	:= test/main.cpp \
 				test/Utilities/MathsTest.cpp \
-				test/Utilities/MatrixTest.cpp
+				test/Utilities/MatrixTest.cpp \
+				test/Utilities/NormalTest.cpp
 
 # Build and run google test>
 
