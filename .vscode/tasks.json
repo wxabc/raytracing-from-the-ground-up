@@ -105,6 +105,7 @@
                 "${workspaceFolder}\\test\\Utilities\\Point3DTest.cpp",
                 "${workspaceFolder}\\test\\Utilities\\RayTest.cpp",
                 "${workspaceFolder}\\test\\Utilities\\RGBColorTest.cpp",
+                "${workspaceFolder}\\test\\Utilities\\Vector3DTest.cpp",
                 // Build output
                 "-o",
                 "${workspaceFolder}\\bin\\raytracertest.exe",

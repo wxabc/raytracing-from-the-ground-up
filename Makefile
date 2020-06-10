@@ -51,7 +51,8 @@ SRC_GTEST	:= test/main.cpp \
 				test/Utilities/Point2DTest.cpp \
 				test/Utilities/Point3DTest.cpp \
 				test/Utilities/RayTest.cpp \
-				test/Utilities/RGBColorTest.cpp
+				test/Utilities/RGBColorTest.cpp \
+				test/Utilities/Vector3DTest.cpp
 
 # Build and run google test>
 
