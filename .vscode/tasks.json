@@ -70,7 +70,7 @@
         {
             "label": "Build test on Windows",
             "type": "shell",
-            "command": "c:\\MinGW\\bin\\g++.exe",
+            "command": "c:\\msys64\\mingw64\\bin\\g++.exe",
             "args": [
                 // g++ options
                 "-std=c++17",
@@ -110,7 +110,8 @@
                 "${workspaceFolder}\\bin\\raytracertest.exe",
                 // Link Googletest libs
                 // # works if -lgtest -lpthread are at the end of the line
-                "-L${workspaceFolder}\\thirdparty\\googletest-v1.10.0\\lib",
+                "-L${workspaceFolder}\\thirdparty\\googletest-v1.10.0\\lib\\win64",
+                "-Lc:\\msys64\\mingw64\\x86_64-w64-mingw32\\lib",
                 "-lgtest",
                 "-lpthread"
             ],
